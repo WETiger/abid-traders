@@ -887,3 +887,9 @@ ul.tweet-feed li a {
 	top: 0;
 	position: absolute;
 }
+
+/* blog page  */
+
+.blog-back{
+    background: url(../images/blog/blog-bac.jpg) no-repeat center;
+}
