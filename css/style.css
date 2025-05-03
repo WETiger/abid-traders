@@ -906,3 +906,48 @@ ul.tweet-feed li a {
 .blog-post .card-img-top{
 	min-height: 200px!important ; 
 }
+
+
+/* about section  */
+
+.aboutban{
+	background: url(../images/about/aboutbanner.jpg) no-repeat center;
+	background-size: cover;
+}
+.about-section{
+	margin: 150px 0;
+}
+.about-title , .ower-title{
+	font-size: 2.5rem;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.about-section p{
+	font-size: 1.2em;
+	color: #0c0b0b;
+	margin-bottom: 20px;
+}
+.ower-thum{
+	text-align: center;
+}
+.ower-thum img{
+	width: 100%;
+}
+.ower-thum h3{
+	margin: 20px 0 15px;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.7em;
+}
+.ower-thum h4{
+	font-size: 1.2em;
+
+}
+.ower-word p{
+	font-size: 1.2em;
+	color: #333333;
+}
+
+.dcz{
+	background: url(../images/service/dsz.jpg) no-repeat center;
+	background-size: cover;
+}
