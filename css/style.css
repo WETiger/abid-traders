@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 body {
 	margin: 0;
 	padding: 0;
@@ -804,4 +806,84 @@ ul.tweet-feed li a {
 	height: 50px;
 	background: maroon;
 	position: relative;
+}
+
+
+/* contact page */
+
+.contactbanner {
+    background: url(../images/contact/contactsec.jpg) no-repeat center;
+}
+.aboutbanner{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 355px;
+}
+.aboutbanner h2{
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    font-size: 43px;
+    font-weight: 100;
+    text-transform: uppercase;
+	font-weight: 400;
+}
+
+/* contact-form */
+.contact-form{}
+
+.formsectioncontact{
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	gap: 20px;
+}
+.contact-form strong {
+    color: #333333;
+    font-size: 32px;
+    padding-bottom: 20px;
+    display: block;
+}
+.inputsection , .message{
+	padding: 12px 20px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.commonbuttonsec{
+	background-color: #1C80CC;
+    padding: 8px 14px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.message{
+	min-height: 200px;
+}
+
+
+.conback{
+	padding: 1.5em;
+}
+.conback span{
+	font-size: 1.5em;
+	color:#02188B;
+}
+/* map  */
+.map{
+	margin-bottom: 30px;
+}
+.google-map {
+	padding-bottom: 50%;
+	position: relative;
+}
+
+.google-map iframe {
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: absolute;
 }
