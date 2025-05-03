@@ -813,6 +813,7 @@ ul.tweet-feed li a {
 
 .contactbanner {
     background: url(../images/contact/contactsec.jpg) no-repeat center;
+	background-size: cover;
 }
 .aboutbanner{
     text-align: center;
@@ -892,4 +893,16 @@ ul.tweet-feed li a {
 
 .blog-back{
     background: url(../images/blog/blog-bac.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.post-section{
+	margin: 80px 0;
+}
+
+.blog-post{
+	row-gap: 30px;
+}
+.blog-post .card-img-top{
+	min-height: 200px!important ; 
 }
